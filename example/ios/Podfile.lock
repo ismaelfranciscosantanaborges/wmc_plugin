@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Flutter (1.0.0)
+  - ReachabilitySwift (5.0.0)
+  - wmc_plugin (0.0.1):
+    - Alamofire
+    - Flutter
+    - ReachabilitySwift
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - wmc_plugin (from `.symlinks/plugins/wmc_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  wmc_plugin:
+    :path: ".symlinks/plugins/wmc_plugin/ios"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  wmc_plugin: 92386d02d875710436c9d1eff5504819b9825c3b
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1

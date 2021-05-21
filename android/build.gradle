@@ -1,0 +1,39 @@
+group 'com.synergy.wmc.wmc_plugin'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    dependencies {
+        implementation group: 'cz.msebera.android', name: 'httpclient', version: '4.4.1.1'
+        implementation("com.squareup.okhttp3:okhttp:4.6.0")
+        implementation 'com.google.code.gson:gson:2.8.5'
+        implementation 'com.jaredrummler:android-device-names:1.0.9'
+    }
+}
