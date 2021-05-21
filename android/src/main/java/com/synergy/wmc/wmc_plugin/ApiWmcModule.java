@@ -324,8 +324,8 @@ public class ApiWmcModule {
     private static void setDetailDevice(){ //detalle de dispositivo
         device_name = DeviceName.getDeviceName(); //nombre de dispositovo
         device_os = Utils.currentVersion(); // version del sistema operativo
-        appid = BuildConfig.APPLICATION_ID; // appid de la aplicación
-        app_Version = BuildConfig.VERSION_NAME; // versión de la aplicación
+        appid = 'com.smarttest.spidy_app_movil'; // appid de la aplicación
+        app_Version = '1.0'; // versión de la aplicación
         language = Locale.getDefault().getLanguage();
     }
 }
